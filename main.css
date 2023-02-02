@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+/* * * * * * * * /
+   send button
+/* * * * * * * */
+#sendUser {
+	height: 30px;
+	width: 70px;
+	background: #F46036;
+	border-radius: 1.5px;
+	box-shadow: 0 4px 0 0 #A5A5A5;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+#sendUser:hover {
+	cursor: pointer;
+	color: #fff;
+}
+/*seperated with SPAN TAG*/
+#sendUser:hover > .inline_sendUser {
+	color: #fff;
+}
+#sendUser:active {
+	position: relative;
+	top: 2px;
+	box-shadow: 0 2px 0 0 #7F7F7F;
+}
+.inline_sendUser {
+	font-size: 20px;
+	color: pink;
+	font-family: 'Cabin Sketch', cursive;
+	position: relative;
+	left: 13px;
+	top: 3.50px;
+}
+
+/* * * * * * * * * * * * /
+   remove user button  
+/ * * * * * * * * * * */
+#removeUser {
+	height: 30px;
+	width: 150px;
+	background: #F46036;
+	border-radius: 1.5px;
+	box-shadow: 0 4px 0 0 #A5A5A5;
+	margin-top: 3%;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+#removeUser:hover {
+	color: red;
+	cursor: pointer;
+}
+#removeUser:hover > .inline_removeUser {
+	color: #fff;
+}
+#removeUser:active {
+	position: relative;
+	top: 2px;
+	box-shadow: 0 2px 0 0 #7F7F7F;
+}
+.inline_removeUser {
+	font-size: 20px;
+	color: pink;
+	font-family: 'Cabin Sketch', cursive;
+	position: relative;
+	left: 13px;
+	top: 3.50px;
+}
+#user-button {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
